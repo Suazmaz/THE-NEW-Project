@@ -1,59 +1,55 @@
 <!DOCTYPE html>
 <head>
  <title>
-   Community Service Hub 
+   Community Service Hub 1
  </title> 
+
+ <link rel="stylesheet" href="styles/github.css">
 </head>
 <body>
 
-
-<h1 align="center" class="c">Help Delaware </h1>
-
-<label for="County">What is your county</label>
-
-<button class="Dpdwn">Choose A County</button>
-<button class="Dpct">Sussex</button>
-<button class="Dpct">New Castle</button>
-<button class="Dpct">Kent</button>
-
-<style>
-
-.Dpct {
-
-visibility: hidden;
-border-radius: 30;
-border-color:aquamarine;
-color: aqua;
+<h1 align="center" class="h1"><u class="u">Help Delaware</u> </h1>
 
 
-}
+<hr class="line">
+<hr class="top">
 
-.Dpdwn:hover + .Dpct {
+<div class="block">
+<label class="label" ><strong>What is your County:<strong>
 
-visibility: visible;
-
-
-}
-
-.Dpct:hover {
-
-visibility: visible;
-
-}
+</label>
 
 
+<select name="County" onchange="window.open(this.value, '_blank')" class="select">
+  <option value="#">Select Option</option>
+    <option value="sussex.html">Sussex County</option>
+    <option value="kent.html"> Kent County</option>
+    <option value="newcastle.html"> New Castle County</option>
+</select>
+</div>
 
 
+<p class=intro><strong><u>Welcome to our community service hub!</u></strong></p>
+<p class="p">All counties mentioned are from the state of Delaware</p> 
 
-</style>
-
-
-
-
+<div class="topnav">
+  <a class="home" href="home">Home</a>
+  <a class="About" href=about">About</a>
+  <a class="Contact" href="contact">Contact</a>
+  <input name=search type="search" placeholder="Search.." class="search">
+</div>
 
 
 
 
 
 </body> 
+
+
+
+
+
+
+
+
 
