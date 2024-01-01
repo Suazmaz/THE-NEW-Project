@@ -3,12 +3,10 @@ font-size: 100px;
 margin-bottom:50px;
 position: relative;
 top:40px;
-
-     }
-
- .u {
+text-align: center;
+text-decoration: underline;
 text-decoration-color: cornflowerblue;
-    }  
+}
 
  .line{
  height:10px;    
@@ -39,14 +37,15 @@ color:rgb(62, 62, 232);
 text-align:center;
 }
 .p{
-font-size:25px 
+text-align:center;  
+font-size:25px;
 }
+
 .top{
 height:90px;
 position: relative;
 background-color: rgba(0, 0, 0, 0.784);
 top:-240px;
-
 }
 
 .topnav {
@@ -74,5 +73,8 @@ color:lightblue;
 .Contact{
 color:lightblue;
 }
-
+.TOS {
+font-size:20px;
+text-align:center;
+}
     
