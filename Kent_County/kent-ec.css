@@ -1,0 +1,12 @@
+.nparddesc {
+display: none;
+
+
+}
+
+.npard:hover + .nparddesc {
+
+display: block;
+
+
+}
