@@ -1,8 +1,7 @@
 .h1 {
 font-size: 100px;
-margin-bottom:50px;
 position: relative;
-top:40px;
+top:60px;
 text-align: center;
 text-decoration: underline;
 text-decoration-color: cornflowerblue;
@@ -13,6 +12,7 @@ text-decoration-color: cornflowerblue;
 background-color: black;  
 position: relative;
 }
+
 .select{
 position:relative;
 background-color: rgba(88, 149, 215, 0.814);
@@ -21,60 +21,95 @@ font-size:30px;
 color: white;
 height:50px;
 border-radius:10px ;
-
 }
+
 .intro{
-font-family:'Times New Roman', Times, serif;
+font-family:'Times New Roman';
 font-size: 45px;
 text-align:center;
+text-decoration: underline;
 }
-  
+
 .label{
 font-size: 50px;
 color:rgb(62, 62, 232);
 }
+
 .block{
 text-align:center;
 }
+
 .p{
-text-align:center;  
+text-align: center;   
 font-size:25px;
+}
+
+.p2 {
+font-size:18px;
+text-align: center;
 }
 
 .top{
 height:90px;
 position: relative;
-background-color: rgba(0, 0, 0, 0.784);
-top:-240px;
+background-color: rgba(175, 148, 148, 0.45);
+top:-260px;
+border:none;
 }
 
 .topnav {
-    position: relative;
-    width:100%;
-    top:-575px;
-    font-size:35px;
-    text-align: right;
-   
+ position: relative;
+ width:100%;
+ top:-652px;
+ font-size:35px;
+ text-align: right;
+ }
 
- }
- .search{
-margin-right:10px;
-height:35px;
-position: relative;
-top:-4px;
-font-size:15px;
- }
 .home{
-color:lightblue;
+color: black;
+margin-right:5px;
 }
+.home:hover{
+ opacity: 0.7;
+}
+.home:active{
+opacity: 0.6;
+}
+
 .About{
-color:lightblue;
-}
+color: black;
+margin-right: 5px;;
+ }
+ .About:hover{
+    opacity: 0.7;
+   }
+   .About:active{
+   opacity: 0.6;
+   }
+
 .Contact{
-color:lightblue;
+color: black;
+margin-right:15px;
 }
+.Contact:hover{
+ opacity: 0.7;
+ }
+.Contact:active{
+ opacity: 0.6;
+}
+
 .TOS {
-font-size:20px;
-text-align:center;
+position: relative;
+font-size: 20px;
+text-align: center;
+margin-top:100px;
+margin-right:10px;
+padding-bottom:15px;
 }
-    
+
+.break{
+position: relative;
+top:70px;
+height:5px;
+background-color:black;
+}
