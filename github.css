@@ -16,10 +16,10 @@ top:-40px
 
 .select{
 position:relative;
-background-color: rgba(88, 149, 215, 0.814);
+background-color: white;
 text-align: center;
 font-size:30px;
-color: white;
+color: black;
 height:50px;
 border-radius:10px ;
 }
